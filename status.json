@@ -11,10 +11,10 @@
       "sections/first-time-setup.asc": 100,
       "sections/help.asc": 100,
       "sections/history.asc": 100,
-      "sections/installing.asc": 0
+      "sections/installing.asc": 50
     },
     "02-git-basics": {
-      "1-git-basics.asc": 0,
+      "1-git-basics.asc": 100,
       "sections/aliases.asc": 0,
       "sections/getting-a-repository.asc": 0,
       "sections/recording-changes.asc": 0,

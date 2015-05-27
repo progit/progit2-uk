@@ -37,7 +37,7 @@
       "sections/generating-ssh-key.asc": 100,
       "sections/git-daemon.asc": 100,
       "sections/git-on-a-server.asc": 100,
-      "sections/gitlab.asc": 0,
+      "sections/gitlab.asc": 60,
       "sections/gitweb.asc": 100,
       "sections/hosted.asc": 0,
       "sections/protocols.asc": 100,

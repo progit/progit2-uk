@@ -6,43 +6,43 @@
     "01-introduction": {
       "1-introduction.asc": 100,
       "sections/about-version-control.asc": 100,
-      "sections/basics.asc": 50,
+      "sections/basics.asc": 100,
       "sections/command-line.asc": 100,
       "sections/first-time-setup.asc": 100,
       "sections/help.asc": 100,
       "sections/history.asc": 100,
-      "sections/installing.asc": 50
+      "sections/installing.asc": 100
     },
     "02-git-basics": {
       "1-git-basics.asc": 100,
-      "sections/aliases.asc": 0,
-      "sections/getting-a-repository.asc": 0,
-      "sections/recording-changes.asc": 0,
-      "sections/remotes.asc": 0,
-      "sections/tagging.asc": 0,
-      "sections/undoing.asc": 0,
-      "sections/viewing-history.asc": 0
+      "sections/aliases.asc": 100,
+      "sections/getting-a-repository.asc": 100,
+      "sections/recording-changes.asc": 100,
+      "sections/remotes.asc": 100,
+      "sections/tagging.asc": 100,
+      "sections/undoing.asc": 100,
+      "sections/viewing-history.asc": 100
     },
     "03-git-branching": {
       "1-git-branching.asc": 100,
       "sections/basic-branching-and-merging.asc": 30,
       "sections/branch-management.asc": 0,
-      "sections/nutshell.asc": 0,
+      "sections/nutshell.asc": 100,
       "sections/rebasing.asc": 0,
       "sections/remote-branches.asc": 0,
       "sections/workflows.asc": 0
     },
     "04-git-server": {
-      "1-git-server.asc": 0,
-      "sections/generating-ssh-key.asc": 0,
-      "sections/git-daemon.asc": 0,
-      "sections/git-on-a-server.asc": 0,
-      "sections/gitlab.asc": 0,
-      "sections/gitweb.asc": 0,
-      "sections/hosted.asc": 0,
-      "sections/protocols.asc": 0,
-      "sections/setting-up-server.asc": 0,
-      "sections/smart-http.asc": 0
+      "1-git-server.asc": 100,
+      "sections/generating-ssh-key.asc": 100,
+      "sections/git-daemon.asc": 100,
+      "sections/git-on-a-server.asc": 100,
+      "sections/gitlab.asc": 100,
+      "sections/gitweb.asc": 100,
+      "sections/hosted.asc": 100,
+      "sections/protocols.asc": 100,
+      "sections/setting-up-server.asc": 100,
+      "sections/smart-http.asc": 100
     },
     "05-distributed-git": {
       "1-distributed-git.asc": 0,

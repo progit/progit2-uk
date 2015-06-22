@@ -64,7 +64,7 @@
       "sections/bundling.asc": 0,
       "sections/credentials.asc": 0,
       "sections/debugging.asc": 0,
-      "sections/interactive-staging.asc": 0,
+      "sections/interactive-staging.asc": 100,
       "sections/replace.asc": 0,
       "sections/rerere.asc": 0,
       "sections/reset.asc": 0,

@@ -70,7 +70,7 @@
       "sections/reset.asc": 0,
       "sections/revision-selection.asc": 100,
       "sections/rewriting-history.asc": 0,
-      "sections/searching.asc": 0,
+      "sections/searching.asc": 100,
       "sections/signing.asc": 100,
       "sections/stashing-cleaning.asc": 100,
       "sections/submodules.asc": 0,

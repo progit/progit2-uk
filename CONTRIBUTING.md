@@ -1,4 +1,4 @@
-# Contributing to Pro Git (2nd Edition)
+# Як долучитися до Pro Git (2-ге видання)
 
 
 ## Licensing

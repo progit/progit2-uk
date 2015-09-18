@@ -1,5 +1,6 @@
 # Як долучитися до Pro Git (2-ге видання)
 
+Щодо допомоги з перекладом дивіться TRANSLATION_NOTES.asc
 
 ## Licensing
 

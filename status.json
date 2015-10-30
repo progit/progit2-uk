@@ -62,7 +62,7 @@
       "1-git-tools.asc": 100,
       "sections/advanced-merging.asc": 100,
       "sections/bundling.asc": 100,
-      "sections/credentials.asc": 13,
+      "sections/credentials.asc": 31,
       "sections/debugging.asc": 100,
       "sections/interactive-staging.asc": 100,
       "sections/replace.asc": 0,

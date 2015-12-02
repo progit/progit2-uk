@@ -78,7 +78,7 @@
     },
     "08-customizing-git": {
       "1-customizing-git.asc": 100,
-      "sections/attributes.asc": 8,
+      "sections/attributes.asc": 40,
       "sections/config.asc": 44,
       "sections/hooks.asc": 0,
       "sections/policy.asc": 100

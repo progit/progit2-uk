@@ -80,7 +80,7 @@
       "1-customizing-git.asc": 100,
       "sections/attributes.asc": 0,
       "sections/config.asc": 44,
-      "sections/hooks.asc": 42,
+      "sections/hooks.asc": 100,
       "sections/policy.asc": 100
     },
     "09-git-and-other-scms": {

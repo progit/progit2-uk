@@ -97,7 +97,7 @@
     },
     "10-git-internals": {
       "1-git-internals.asc": 0,
-      "sections/environment.asc": 25,
+      "sections/environment.asc": 40,
       "sections/maintenance.asc": 0,
       "sections/objects.asc": 0,
       "sections/packfiles.asc": 0,

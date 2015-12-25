@@ -230,3 +230,9 @@ section[data-type="appendix"] div[data-type="equation"] h5:before {
     content: "Додаток "counter(AppendixNumber, upper-alpha)", "string(ChapterTitle);
   }
 }
+
+nav[data-type="toc"] {
+  bookmark-level: 1;
+  bookmark-state: closed;
+  bookmark-label: "Зміст"; 
+}

@@ -92,3 +92,141 @@ pre[data-code-language="console"] code.gp {
   color: #009900;
   font-weight: bold;
 }
+
+/* Переклад українською */
+@page toc:left {
+  @top-left {
+    content: "Зміст";
+  }
+}
+
+@page toc:right {
+  @top-right {
+    content: "Зміст";
+  }
+}
+
+nav[data-type="toc"] li[data-type="part"]:before {
+  content: "ЧАСТИНА " counter(PartNumberTOC, upper-roman) ":";
+  counter-increment: PartNumberTOC;
+}
+
+nav[data-type="toc"] li[data-type="chapter"]:before {
+  content: "РОЗДІЛ " counter(ChapterNumberTOC, decimal) ": ";
+  counter-increment: ChapterNumberTOC;
+}
+
+div[data-type="part"] > h1:before {
+  font-family: 'OpenSans-Semibold', sans-serif, ArialUnicodeMS;
+  font-size: 11pt;
+  text-transform: uppercase;
+  content: "Частина " counter(PartNumber);
+  display: block;
+  text-align: center;
+  margin-top: 72pt;
+  margin-bottom: 34pt;
+}
+
+@page chapter:left {
+  @top-left {
+    content: "РОЗДІЛ "counter(ChapterNumber)": "string(ChapterTitle);
+  }
+}
+
+table caption:before {
+  font-family: SourceSansPro-Black, sans-serif, ArialUnicodeMS;
+  font-style: normal;
+  font-size: 8.5pt;
+  counter-increment: TableNumber;
+  content: "ТАБЛИЦЯ " counter(ChapterNumber) "-" counter(TableNumber)". ";
+  margin-bottom: 7.2pt;
+  margin-top: 0;
+}
+
+section[data-type="preface"] table caption:before {
+  content: "ТАБЛИЦЯ P-"counter(TableNumber)". ";
+}
+
+section[data-type="foreword"] table caption:before {
+  content: "ТАБЛИЦЯ F-"counter(TableNumber)". ";
+}
+
+section[data-type="appendix"] table caption:before {
+  content: "ТАБЛИЦЯ " counter(AppendixNumber)"-"counter(TableNumber)". ";
+}
+
+figcaption:before {
+  font-family: SourceSansPro-Black, sans-serif, ArialUnicodeMS;
+  font-style: normal;
+  font-size: 8.5pt;
+  counter-increment: FigureNumber;
+  content: "ЗОБРАЖЕННЯ " counter(ChapterNumber) "-" counter(FigureNumber);
+  display: block;
+  margin-bottom: 7.2pt;
+}
+
+section[data-type="preface"] figcaption:before {
+  content: "Зображення P-"counter(FigureNumber)". ";
+}
+
+section[data-type="foreword"] figcaption:before {
+  content: "Зображення F-"counter(FigureNumber)". ";
+}
+
+section[data-type="appendix"] figcaption:before {
+  content: "Зображення " counter(AppendixNumber)"-"counter(FigureNumber)". ";
+}
+
+div[data-type="example"] h5:before {
+  font-family: 'SourceSansPro-Black', sans-serif, ArialUnicodeMS;
+  font-style: normal;
+  font-size: 8.5pt;
+  counter-increment: ExampleNumber;
+  content: "ПРИКЛАД " counter(ChapterNumber) "-" counter(ExampleNumber)". ";
+  margin-bottom: 7.2pt;
+  margin-top: 0;
+}
+
+section[data-type="preface"] div[data-type="example"] h5:before {
+  content: "ПРИКЛАД P-"counter(ExampleNumber)". ";
+}
+
+section[data-type="foreword"] div[data-type="example"] h5:before {
+  content: "ПРИКЛАД F-"counter(ExampleNumber)". ";
+}
+
+section[data-type="appendix"] div[data-type="example"] h5:before {
+  content: "ПРИКЛАД " counter(AppendixNumber)"-"counter(ExampleNumber)". ";
+}
+
+div[data-type="example"] pre {
+  margin-left: 0;
+}
+
+div[data-type="equation"] h5:before {
+  font-family: SourceSansPro-Black, sans-serif, ArialUnicodeMS;
+  font-style: normal;
+  font-size: 8.5pt;
+  counter-increment: EquationNumber;
+  content: "РІВНЯННЯ " counter(ChapterNumber) "-" counter(EquationNumber);
+  display: block;
+  margin-bottom: 7.2pt;
+}
+
+section[data-type="preface"] div[data-type="equation"] h5:before {
+  content: "РІВНЯННЯ P-"counter(EquationNumber)". ";
+}
+
+section[data-type="foreword"] div[data-type="equation"] h5:before {
+  content: "РІВНЯННЯ F-"counter(EquationNumber)". ";
+}
+
+section[data-type="appendix"] div[data-type="equation"] h5:before {
+  content: "РІВНЯННЯ " counter(AppendixNumber)"-"counter(EquationNumber)". ";
+}
+
+@page appendix:left {
+  @bottom-right {
+    content: "Додаток "counter(AppendixNumber, upper-alpha)", "string(ChapterTitle);
+  }
+}

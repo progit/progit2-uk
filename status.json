@@ -45,9 +45,9 @@
       "sections/smart-http.asc": 100
     },
     "05-distributed-git": {
-      "1-distributed-git.asc": 0,
+      "1-distributed-git.asc": 100,
       "sections/contributing.asc": 0,
-      "sections/distributed-workflows.asc": 0,
+      "sections/distributed-workflows.asc": 100,
       "sections/maintaining.asc": 0
     },
     "06-github": {
@@ -61,11 +61,11 @@
     "07-git-tools": {
       "1-git-tools.asc": 100,
       "sections/advanced-merging.asc": 100,
-      "sections/bundling.asc": 0,
-      "sections/credentials.asc": 0,
+      "sections/bundling.asc": 100,
+      "sections/credentials.asc": 100,
       "sections/debugging.asc": 100,
       "sections/interactive-staging.asc": 100,
-      "sections/replace.asc": 0,
+      "sections/replace.asc": 100,
       "sections/rerere.asc": 100,
       "sections/reset.asc": 100,
       "sections/revision-selection.asc": 100,
@@ -79,7 +79,7 @@
     "08-customizing-git": {
       "1-customizing-git.asc": 100,
       "sections/attributes.asc": 0,
-      "sections/config.asc": 20,
+      "sections/config.asc": 44,
       "sections/hooks.asc": 0,
       "sections/policy.asc": 100
     },
@@ -97,11 +97,11 @@
     },
     "10-git-internals": {
       "1-git-internals.asc": 0,
-      "sections/environment.asc": 0,
+      "sections/environment.asc": 100,
       "sections/maintenance.asc": 0,
       "sections/objects.asc": 0,
       "sections/packfiles.asc": 0,
-      "sections/plumbing-porcelain.asc": 0,
+      "sections/plumbing-porcelain.asc": 100,
       "sections/refs.asc": 0,
       "sections/refspec.asc": 0,
       "sections/transfer-protocols.asc": 0

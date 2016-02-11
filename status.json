@@ -1,7 +1,7 @@
 {
   "code": "uk",
   "language": "Ukrainian",
-  "maintainers": ["greatehop"],
+  "maintainers": ["tbudurovych", "hedrok"],
   "files": {
     "01-introduction": {
       "1-introduction.asc": 100,

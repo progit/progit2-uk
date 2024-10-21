@@ -1,0 +1,23 @@
+== План оновлення перекладу
+
+Поточний переклад базується на версії `e95aba0b236ab57b8ea9a1ef1b4fdae6339573ec`
+(`english-version`) квітня 2016-го року.
+
+Це план, як оновити переклад до версії `2.1.434`.
+
+Спробував залити `2.1.434` до `master`, список файлів з конфліктами у `files.adoc`.
+
+// Пропонований порядок роботи (продемонстрований на `book/01-introduction/sections/about-version-control.asc`):
+// 
+// Спершу отримаємо всі версії цього файлу:
+// 
+// ----
+// f=book/01-introduction/sections/about-version-control.asc
+// # Дивимося конфлікти
+// git show origin/english-version:$f > $f-old-english
+// git show 2.1.434:$f > $f-cur-english
+// git show HEAD:$f > $f-ukrainian
+// git merge-file -p $f-ukrainian $f-old-english $f-cur-english > $f
+// ----
+// 
+// Виправляємо файл і робимо PR.

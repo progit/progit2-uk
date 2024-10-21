@@ -107,5 +107,6 @@
 * book/09-git-and-other-scms/sections/import-tfs.asc
 
 Додані і нами (для того, щоб генерація працювала), і ними:
+
 * .github/workflows/pr-build.yml
 * .github/workflows/release-on-merge.yml

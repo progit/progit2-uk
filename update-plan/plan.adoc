@@ -16,9 +16,8 @@
 // # Дивимося конфлікти
 // git show origin/english-version:$f > $f-old-english
 // git show 2.1.434:$f > $f-cur-english
-// git show HEAD:$f > $f-ukrainian
-// git merge-file --diff3 -p $f-ukrainian $f-old-english $f-cur-english > $f
-// rm $f-ukrainian $f-old-english $f-cur-english
+// git merge-file --diff3 $f $f-old-english $f-cur-english
+// rm $f-old-english $f-cur-english
 // ----
 //
 // Виправляємо файл і робимо PR.

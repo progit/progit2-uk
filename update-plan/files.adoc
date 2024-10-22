@@ -6,7 +6,7 @@
 | Назва файлу                                                                   |Статус (+ означає зроблено, * означає в процесі)
 | book/01-introduction/sections/about-version-control.asc                       | +
 | book/01-introduction/sections/command-line.asc                                | +
-| book/01-introduction/sections/first-time-setup.asc                            |
+| book/01-introduction/sections/first-time-setup.asc                            | +
 | book/01-introduction/sections/help.asc                                        |
 | book/01-introduction/sections/history.asc                                     |
 | book/01-introduction/sections/installing.asc                                  |

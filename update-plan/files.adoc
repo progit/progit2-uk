@@ -101,10 +101,10 @@
 
 Вилучені файли:
 
-* book/A-git-in-other-environments/sections/eclipse.asc
-* book/09-git-and-other-scms/sections/client-tfs.asc
-* .travis.yml
-* book/09-git-and-other-scms/sections/import-tfs.asc
+* + book/A-git-in-other-environments/sections/eclipse.asc
+* + book/09-git-and-other-scms/sections/client-tfs.asc
+* + .travis.yml
+* + book/09-git-and-other-scms/sections/import-tfs.asc
 
 Додані і нами (для того, щоб генерація працювала), і ними:
 

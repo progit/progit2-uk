@@ -7,17 +7,27 @@
 
 Спробував залити `2.1.434` до `master`, список файлів з конфліктами у `files.adoc`.
 
+Перевірте, чи у вас налаштовано `merge.conflictstyle` як `diff3`.
+Якщо ні, то не забудьте додати опцію `--diff3` до команди `merge-file` у скрипті нижче, або виконайте наступну команду:
+
+```bash
+git config --global merge.conflictstyle diff3
+```
+
 // Пропонований порядок роботи (продемонстрований на `book/01-introduction/sections/about-version-control.asc`):
 // 
 // Спершу отримаємо всі версії цього файлу:
-// 
+//
 // ----
 // f=book/01-introduction/sections/about-version-control.asc
 // # Дивимося конфлікти
 // git show origin/english-version:$f > $f-old-english
 // git show 2.1.434:$f > $f-cur-english
-// git show HEAD:$f > $f-ukrainian
-// git merge-file -p $f-ukrainian $f-old-english $f-cur-english > $f
+// git merge-file $f $f-old-english $f-cur-english
+// rm $f-old-english $f-cur-english
 // ----
-// 
+//
 // Виправляємо файл і робимо PR.
+
+.Примітка
+Якщо працюєте з власним відсадком, то не забудьте стягнути гілку `english-version` з оригінального репозиторію.

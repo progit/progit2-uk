@@ -4,19 +4,19 @@
 
 |===
 | Назва файлу                                                                   |Статус (+ означає зроблено, * означає в процесі)
-| book/01-introduction/sections/about-version-control.asc                       |
-| book/01-introduction/sections/command-line.asc                                |
-| book/01-introduction/sections/first-time-setup.asc                            |
-| book/01-introduction/sections/help.asc                                        |
-| book/01-introduction/sections/history.asc                                     |
-| book/01-introduction/sections/installing.asc                                  |
-| book/01-introduction/sections/what-is-git.asc                                 |
+| book/01-introduction/sections/about-version-control.asc                       | +
+| book/01-introduction/sections/command-line.asc                                | +
+| book/01-introduction/sections/first-time-setup.asc                            | +
+| book/01-introduction/sections/help.asc                                        | * by Oleh (burlakvo)
+| book/01-introduction/sections/history.asc                                     | * by Oleh (burlakvo)
+| book/01-introduction/sections/installing.asc                                  | * by Oleh (burlakvo)
+| book/01-introduction/sections/what-is-git.asc                                 | * by Oleh (burlakvo)
 | book/02-git-basics/sections/aliases.asc                                       | * by Eugene (dev99problems)
-| book/02-git-basics/sections/getting-a-repository.asc                          | * by Eugene (dev99problems) 
-| book/02-git-basics/sections/recording-changes.asc                             | * by Eugene (dev99problems) 
-| book/02-git-basics/sections/remotes.asc                                       | * by Eugene (dev99problems) 
-| book/02-git-basics/sections/tagging.asc                                       | * by Eugene (dev99problems) 
-| book/02-git-basics/sections/undoing.asc                                       | * by Eugene (dev99problems) 
+| book/02-git-basics/sections/getting-a-repository.asc                          | * by Eugene (dev99problems)
+| book/02-git-basics/sections/recording-changes.asc                             | * by Eugene (dev99problems)
+| book/02-git-basics/sections/remotes.asc                                       | * by Eugene (dev99problems)
+| book/02-git-basics/sections/tagging.asc                                       | * by Eugene (dev99problems)
+| book/02-git-basics/sections/undoing.asc                                       | * by Eugene (dev99problems)
 | book/02-git-basics/sections/viewing-history.asc                               | * by Eugene (dev99problems)
 | book/03-git-branching/sections/basic-branching-and-merging.asc                |
 | book/03-git-branching/sections/branch-management.asc                          |
